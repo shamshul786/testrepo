@@ -8,3 +8,8 @@ resource "azurerm_resource_group" "rg1" {
     location = "eastus"
   
 }
+resource "azurerm_resource_group" "rg2" {
+    name= "gitrg3"
+    location = "eastus"
+  
+}
